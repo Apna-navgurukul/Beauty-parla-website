@@ -1,0 +1,493 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Arial', sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   color: #333;
+}
+
+
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   background-color: #fff;
+}
+
+header a img {
+   height: 50px;
+}
+
+.nav-bar ul {
+   list-style: none;
+   display: flex;
+   gap: 20px;
+   padding: 0;
+   margin: 0;
+}
+
+.nav-bar ul li a {
+   text-decoration: none;
+   color: #333;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 10px 15px;
+   border-radius: 5px;
+}
+
+.nav-bar ul li a:hover {
+   background-color: #f4f4f4;
+}
+
+.product img {
+   width: 250px;
+}
+
+.product button:hover {
+   background-color: rgb(56, 56, 54);
+
+}
+
+.product button {
+   padding: 10px;
+   background-color: black;
+   color: rgb(235, 230, 230);
+   border-radius: 10px;
+   display: grid;
+   display: block;
+   margin: auto;
+
+
+}
+
+.product p {
+   text-align: center;
+   color: rgb(82, 77, 77);
+
+}
+
+h1 {
+   text-align: center;
+   color: rgb(20, 20, 18);
+}
+
+
+
+.content {
+   margin: 100px;
+
+}
+
+.conatiner {
+   display: flex;
+   gap: 50px;
+
+}
+
+.conatiner p {
+   text-align: center;
+}
+
+.marquee {
+   background-color: white;
+}
+
+.product {
+   display: flex;
+   gap: 40px;
+
+
+}
+
+.resize {
+   background-color: rgb(17, 17, 17);
+   padding: 20px;
+
+}
+
+.resize img {
+   display: block;
+   margin: auto;
+}
+
+.resize p {
+   text-align: center;
+   color: azure;
+
+}
+
+.resize h3 {
+   text-align: center;
+   color: azure;
+}
+
+.resize h4 {
+   text-align: center;
+   color: azure;
+}
+
+.contrast-more {
+   padding: 100px;
+   text-align: justify;
+}
+
+.contrast-more p {
+   color: rgb(84, 85, 85);
+   letter-spacing: 2px;
+   text-align: justify;
+}
+
+.contrast-more h3 {
+   color: rgb(69, 70, 70);
+
+}
+
+.contrast-more summary {
+   text-decoration: underline;
+   padding: 4px;
+   background-color: rgb(236, 232, 232);
+}
+
+.capitalize {
+   background-color: rgb(17, 17, 17);
+   padding: 50px;
+
+}
+
+.capitalize h1 {
+   color: azure;
+   text-align: center;
+}
+
+.capitalize h2 {
+   color: azure;
+
+}
+
+.capitalize p {
+   color: azure;
+}
+
+.checked {
+   column-count: 4;
+   column-gap: 20px;
+}
+
+.dark {
+   text-align: center;
+}
+
+.dark img {
+   text-align: center;
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+.sidebar {
+   color: rgb(100, 98, 98);
+   column-count: 2;
+   margin-right: 1020px;
+   padding: 15px;
+
+}
+
+.sidebar input {
+   column-count: 2;
+   column-gap: 20px;
+   padding: 8px;
+   margin: 2px;
+}
+
+.sidebar summary:hover {
+   text-decoration: underline;
+}
+
+
+.second-color p {
+   display: inline-block;
+}
+
+.marker img {
+   width: 250px;
+   background-color: black;
+   border-radius: 20px;
+   cursor: pointer;
+
+
+
+}
+
+.marker button:hover {
+   background-color: rgb(56, 56, 54);
+}
+
+.marker p {
+   text-align: center;
+   color: rgb(82, 77, 77);
+
+}
+
+.marker button {
+   padding: 10px;
+   background-color: black;
+   color: rgb(235, 230, 230);
+   border-radius: 20px;
+}
+
+.marker {
+   display: flex;
+   gap: 40px;
+   text-align: center;
+}
+
+.marker p:hover {
+   text-align: center;
+   color: rgb(82, 77, 77);
+   text-decoration: underline;
+}
+
+.marker img:hover {
+   transform: translateY(-5px);
+}
+
+.starting {
+   display: flex;
+   gap: 40px;
+   text-align: center;
+}
+
+.starting img {
+   width: 250px;
+   background-color: black;
+   border-radius: 20px;
+   cursor: pointer;
+   display: block;
+   margin: auto;
+}
+
+.starting button:hover {
+   background-color: rgb(56, 56, 54);
+}
+
+.starting p {
+   text-align: center;
+   color: rgb(82, 77, 77);
+}
+
+.starting button {
+   padding: 5px;
+   display: inline;
+   background-color: black;
+   color: rgb(235, 230, 230);
+   border-radius: 20px;
+
+}
+
+.starting p:hover {
+   text-align: center;
+   color: rgb(82, 77, 77);
+   text-decoration: underline;
+}
+
+.tringle {
+   display: flex;
+   gap: 40px;
+   text-align: center;
+}
+
+.tringle p {
+   text-align: center;
+   color: rgb(82, 77, 77);
+}
+
+.tringle img {
+   width: 250px;
+   background-color: black;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.tringle button {
+   padding: 5px;
+   display: inline;
+   background-color: black;
+   color: rgb(235, 230, 230);
+   border-radius: 20px;
+}
+
+.tringle button:hover {
+   background-color: rgb(56, 56, 54);
+}
+
+.tringle p:hover {
+   text-align: center;
+   color: rgb(82, 77, 77);
+   text-decoration: underline;
+}
+
+
+
+.tringle img:hover {
+   transform: translateY(-5px);
+}
+
+.starting img:hover {
+   transform: translateY(-5px);
+}
+
+.contact {
+   margin: 100px;
+   padding: 200px;
+   background-image: url(Images/image/unnamed.jpg);
+}
+
+.contact input {
+   display: flex;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10px;
+   font-size: 30px;
+   display: block;
+   margin: auto;
+
+
+}
+
+.contact input:hover {
+   transform: translateY(-2px);
+}
+
+.contact button {
+   padding: 15px;
+   margin: 20px;
+   border-radius: 10px;
+   background-color: rgb(29, 28, 28);
+   color: rgb(248, 252, 252);
+   font-size: 20px;
+   display: block;
+   margin: auto;
+
+}
+
+.contact button:hover {
+   transform: translateY(-2px);
+}
+
+.content {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   flex-wrap: wrap;
+}
+
+.content img {
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+   header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .nav-bar ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   header {
+      display: flex;
+      overflow-x: auto;
+      padding: 0;
+   }
+
+   header img {
+      width: 100px;
+   }
+
+   .sidebar {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      max-width: none;
+      align-items: center;
+      text-align: center;
+   }
+
+   .marker {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+  
+
+   .product {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+      margin-top: 15px;
+   }
+
+
+   .conatiner {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+      margin-top: 15px;
+   }
+
+   .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+   }
+
+   .contact {
+      padding: 30px;
+      margin: 20px auto;
+   }
+
+   .contact input {
+      width: 100%;
+      font-size: 18px;
+   }
+
+   .contact button {
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+   }
+
+   .starting {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+      margin-top: 15px;
+   }
+
+   .tringle {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+      margin-top: 15px;
+   }
+
+   .checked {
+      column-count: 2;
+   }
+
+}
